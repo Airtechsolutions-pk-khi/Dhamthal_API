@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b6245581bc7043ef9eee8aeac52d0cfd" Name="Diagram1">
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.ApplicationInfo" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.AppSetting" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Banner" Width="1.5" PointX="3" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Brand" Width="1.5" PointX="0.75" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Category" Width="1.5" PointX="5.25" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Customer" Width="1.5" PointX="8.25" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.CustomerAddress" Width="1.5" PointX="10.5" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.CustomerDetail" Width="1.5" PointX="10.5" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.CustomerOrderDetail" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.CustomerOrder" Width="1.5" PointX="10.5" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.CustomerPayment" Width="1.5" PointX="10.5" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Delivery" Width="1.5" PointX="0.75" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.DeliveryAreaBrandJunc" Width="1.5" PointX="3" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Item" Width="1.5" PointX="7.5" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Location" Width="1.5" PointX="3" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Modifier" Width="1.5" PointX="9.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Offer" Width="1.5" PointX="12.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.OrderCheckout" Width="1.5" PointX="10.5" PointY="51.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.OrderDetail" Width="1.5" PointX="13.5" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.OrderDetailModifier" Width="1.5" PointX="15.75" PointY="36" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Order" Width="1.5" PointX="8.25" PointY="47.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.PushToken" Width="1.5" PointX="5.25" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Status" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.SubUser" Width="1.5" PointX="5.25" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.TodaySpecialItem" Width="1.5" PointX="9.75" PointY="56.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.TransferOrder" Width="1.5" PointX="13.5" PointY="49.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a8354d_dhamtalModel.Unit" Width="1.5" PointX="5.25" PointY="29.625" IsExpanded="true" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Banners_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Category_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Customer_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_DeliveryAreaBrandJunc_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Locations_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Modifiers_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Offers_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_SubUser_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Category_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Items_Items" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Customer_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_CustomerAddresses_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_CustomerDetail_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_CustomerPayment_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_CustomerOrders_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_DeliveryAreaBrandJunc_DeliveryAreaBrandJunc" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Items_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Offers_Items" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_OrderDetail_Items" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_TodaySpecialItems_Items" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Orders_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_PushToken_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_SubUser_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_TransferOrder_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_TransferOrder_Locations1" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_OrderDetailModifier_Modifiers" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_OrderCheckout_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_OrderDetail_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_OrderDetailModifier_OrderDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Orders_SubUser" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_Orders_SubUser1" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.FK_TransferOrder_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a8354d_dhamtalModel.ItemModifiersJunc" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
